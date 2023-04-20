@@ -33799,6 +33799,7 @@ body.rtl .dslc-last-col {
 
 .dslc-no-columns-spacing .dslc-8-col {
     width: 66.66666%;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .dslc-no-columns-spacing .dslc-9-col {
@@ -34391,7 +34392,7 @@ body.rtl .dslc-last-col {
 }
 
 #dslc-content .dslc-bg-video.dslc-force-show {
-    opacity: 1;
+    /* opacity: 1 */
 }
 
 #dslc-content .dslc-bg-video .mejs-container {
@@ -43273,6 +43274,7 @@ table.wpsl-opening-hours td {
     width: auto;
     word-wrap: break-word;
     white-space: normal;
+    background-color: rgba(0, 0, 0, 0);
 
     /* background-color: rgba(14, 14, 14, 0) */
 }
@@ -43302,7 +43304,8 @@ table.wpsl-opening-hours td {
 
 @media only screen and (min-width:701px){
     #mega-menu-wrap-dslc_devices {
-        background: rgba(0, 0, 0, 0);
+        background-image: url(../../../../uploads/2023/background_1@2x.png);
+        background-color: rgba(0, 0, 0, 0);
     }
 }
 
@@ -43600,7 +43603,9 @@ table.wpsl-opening-hours td {
 
 #mega-menu-wrap-dslc_devices #mega-menu-dslc_devices>li.mega-menu-megamenu.mega-menu-item {
     position: static;
-}#mega-menu-wrap-dslc_devices #mega-menu-dslc_devices>li.mega-menu-item {
+}
+
+#mega-menu-wrap-dslc_devices #mega-menu-dslc_devices>li.mega-menu-item {
     margin: 0 40px 0 0;
     display: inline-block;
     height: auto;
@@ -44684,7 +44689,6 @@ table.wpsl-opening-hours td {
     display: inline;
     height: auto;
     width: auto;
-    background: transparent;
     position: relative;
     pointer-events: auto;
     left: auto;
@@ -44693,6 +44697,7 @@ table.wpsl-opening-hours td {
     color: inherit;
     font-size: inherit;
     padding: 0;
+    background-color: rgba(0, 0, 0, 0.13);
 }
 
 #mega-menu-wrap-dslc_devices #mega-menu-dslc_devices li.mega-menu-item-has-children li.mega-menu-item-has-children>a.mega-menu-link>span.mega-indicator {
@@ -47434,7 +47439,6 @@ table.wpsl-opening-hours td {
     display: none;
     z-index: 1;
     cursor: pointer;
-    background: rgba(0,0,0,.75);
     border-radius: 2px 2px 2px 2px;
     line-height: 50px;
     height: 50px;
@@ -47604,6 +47608,7 @@ table.wpsl-opening-hours td {
 
 #mega-menu-wrap-dslc_mobile_corp.mega-stuck {
     transition: transform 0.25s ease-in-out;
+    background-image: url(../../../../uploads/2023/background_1@2x.png);
 }
 
 #mega-menu-wrap-dslc_mobile_corp.mega-stuck.mega-hide {
@@ -48237,7 +48242,7 @@ table.wpsl-opening-hours td {
 }
 
 #mega-menu-wrap-dslc_mobile_corp .mega-menu-toggle .mega-toggle-block-2 a.mega-menu-logo img.mega-menu-logo {
-    max-height: 34px;
+    max-height: 52px;
     top: 0;
     margin: 0;
     padding: 0;
