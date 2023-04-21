@@ -8887,12 +8887,16 @@ var {
     font-size: 100%;
     font-style: inherit;
     font-weight: inherit;
-    margin: 0;
+
+    /* margin:0 */
     outline: 0;
-    padding: 0;
+
+    /* padding: 0 */
     vertical-align: baseline;
-    width: auto;
-    height: auto;
+    left: -1px;
+    right: -55px;
+    top: -1px;
+    bottom: -1px;
 }
 
 html {

@@ -8887,12 +8887,19 @@ var {
     font-size: 100%;
     font-style: inherit;
     font-weight: inherit;
-    margin: 0;
-    outline: 0;
-    padding: 0;
+
+    /* margin:0 */
+    /* outline: 0 */
+    /* padding: 0 */
     vertical-align: baseline;
+    left: 0px;
+    top: 0px;
     width: auto;
     height: auto;
+    padding: 0px;
+    margin: -1px;
+
+    /* top: -1px */
 }
 
 html {

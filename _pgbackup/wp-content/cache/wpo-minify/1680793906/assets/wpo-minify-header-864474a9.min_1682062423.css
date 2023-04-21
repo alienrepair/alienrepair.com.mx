@@ -34900,11 +34900,8 @@ a img.aligncenter {
     .dslc-no-columns-spacing .dslc-col {
         width: 100%;
         min-width: 0;
-        padding: 0px;
+        padding: 7px;
         margin: 1px;
-        left: -6px;
-        top: -6px;
-        bottom: -6px;
     }
 
     .dslc-module-front.dslc-col {
@@ -45902,20 +45899,21 @@ table.wpsl-opening-hours td {
 #mega-menu-wrap-dslc_mobile_corp #mega-menu-dslc_mobile_corp a.mega-menu-link,
 #mega-menu-wrap-dslc_mobile_corp #mega-menu-dslc_mobile_corp span.mega-menu-badge {
     transition: none;
-
-    /* border-radius: 0 */
+    border-radius: 0;
     box-shadow: none;
 
     /* background: none */
-    /* border: 0 */
+    border: 0;
+
     /* box-sizing: border-box */
     clip: auto;
     color: #fff;
     display: block;
+    float: none;
     font-family: inherit;
     font-size: 14px;
+    height: auto;
 
-    /* height: auto */
     /* line-height: 1.7 */
     list-style-type: none;
     min-height: auto;
@@ -45924,10 +45922,12 @@ table.wpsl-opening-hours td {
     max-width: none;
     opacity: 1;
     outline: none;
+    overflow: visible;
     position: relative;
     pointer-events: auto;
     text-align: left;
     text-decoration: none;
+    text-indent: 0;
     text-transform: none;
     transform: none;
     vertical-align: baseline;
@@ -45935,8 +45935,6 @@ table.wpsl-opening-hours td {
     width: auto;
     word-wrap: break-word;
     white-space: normal;
-    left: 11px;
-    top: 11px;
 }
 
 #mega-menu-wrap-dslc_mobile_corp:before,
@@ -47454,7 +47452,8 @@ table.wpsl-opening-hours td {
     -webkit-tap-highlight-color: transparent;
     outline: none;
     white-space: nowrap;
-    padding: 0px;
+    margin-left: 4px;
+    padding-left: 0px;
 }
 
 #mega-menu-wrap-dslc_mobile_corp .mega-menu-toggle img {
@@ -47570,7 +47569,7 @@ table.wpsl-opening-hours td {
     font-family: 'dashicons';
     font-size: 24px;
     color: #fff;
-    margin: 0 8px 0 5px;
+    margin: 0 0 0 5px;
 }
 
 #mega-menu-wrap-dslc_mobile_corp .mega-menu-toggle .mega-toggle-block-3 .mega-toggle-label {
@@ -47605,15 +47604,15 @@ table.wpsl-opening-hours td {
 
 #mega-menu-wrap-dslc_mobile_corp.mega-sticky {
     position: fixed;
-    top: -1px;
-    left: 1px;
-    right: 1px;
+    top: 0;
+    left: 0;
+    right: 0;
     z-index: 99998;
     opacity: 1;
     max-width: 100%;
     width: 100%;
-    margin: -9px -24px 162px -2px;
-    padding: 8px;
+    margin: 0 auto;
+    padding: 7px;
 }
 
 #mega-menu-wrap-dslc_mobile_corp.mega-stuck {
@@ -48253,7 +48252,7 @@ table.wpsl-opening-hours td {
 
 #mega-menu-wrap-dslc_mobile_corp .mega-menu-toggle .mega-toggle-block-2 a.mega-menu-logo img.mega-menu-logo {
     max-height: 52px;
-    top: -2px;
+    top: 0;
     margin: 0;
     padding: 0;
     position: relative;
@@ -48263,8 +48262,6 @@ table.wpsl-opening-hours td {
 
 #mega-menu-wrap-dslc_mobile_corp {
     clear: both;
-    padding: 7px;
-    margin: -1px;
 }
 
 #mega-menu-wrap-dslc_cleveland_mobile,

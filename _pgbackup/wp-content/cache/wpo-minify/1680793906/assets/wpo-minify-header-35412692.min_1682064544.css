@@ -8887,12 +8887,14 @@ var {
     font-size: 100%;
     font-style: inherit;
     font-weight: inherit;
-    margin: 0;
-    outline: 0;
-    padding: 0;
+
+    /* margin:0 */
+    /* outline: 0 */
+    /* padding: 0 */
     vertical-align: baseline;
     width: auto;
     height: auto;
+    top: -1px;
 }
 
 html {
