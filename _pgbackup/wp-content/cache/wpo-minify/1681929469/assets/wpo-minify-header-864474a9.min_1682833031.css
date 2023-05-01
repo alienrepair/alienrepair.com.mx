@@ -34893,6 +34893,10 @@ a img.aligncenter {
     }
 
     .dslc-module-front.dslc-col {
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
     }
 
     .dslc-hide-on-phone {
@@ -47436,7 +47440,6 @@ table.wpsl-opening-hours td {
     -webkit-tap-highlight-color: transparent;
     outline: none;
     white-space: nowrap;
-    background-color: rgba(37, 109, 12, 0.63);
 }
 
 #mega-menu-wrap-dslc_mobile_corp .mega-menu-toggle img {

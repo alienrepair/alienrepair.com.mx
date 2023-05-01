@@ -9040,6 +9040,7 @@ object {
 @media only screen and (max-width:767px){
     .dslc-col,
     .dslc-no-columns-spacing .dslc-col {
+        margin-bottom: 0;
     }
 }
 
