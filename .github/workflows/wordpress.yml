@@ -25,8 +25,9 @@ jobs:
   # Single deploy job since we're just deploying
   deploy:
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      - name: Deploy WordPress
+ 
+  uses: rtCamp/action-deploy-wordpress@49e727e
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
