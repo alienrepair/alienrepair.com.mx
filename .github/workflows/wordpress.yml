@@ -26,8 +26,7 @@ jobs:
   deploy:
     environment:
       - name: Deploy WordPress
- 
-  uses: rtCamp/action-deploy-wordpress@49e727e
+        uses: rtCamp/action-deploy-wordpress@49e727e
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
